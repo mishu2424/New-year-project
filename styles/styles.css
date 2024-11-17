@@ -105,6 +105,7 @@ button>a{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 .location-info{
@@ -118,4 +119,20 @@ button>a{
     background-color: #FF0000;
     padding: 15px;
     border-style: none;
+}
+
+/* gifts section styles */
+.gifts{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+.catalogue{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.gifts img{
+    width:424px;
+    height:450px;
+    border-radius: 10px;
 }
