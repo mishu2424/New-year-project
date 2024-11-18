@@ -1,3 +1,7 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 header{
     margin: 0px auto;
     /* background-color: blue; */
@@ -135,4 +139,37 @@ button>a{
     width:424px;
     height:450px;
     border-radius: 10px;
+}
+
+/* footer section styles */
+footer{
+    background-color: #070211;
+    height: 450px;
+    width: 100%;
+}
+.footer{
+    /* margin: 0px auto; */
+    margin-left:109px;
+    margin-right: 109px;
+}
+.address-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    height: 90px;
+    padding-top: 2%;
+}
+.address-part h5{
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0px;
+}
+.online-platform{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: 1px solid grey;
 }
