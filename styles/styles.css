@@ -128,7 +128,7 @@ button>a{
 /* gifts section styles */
 .gifts{
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 600px;
 }
 .catalogue{
     display: flex;
@@ -139,6 +139,33 @@ button>a{
     width:424px;
     height:450px;
     border-radius: 10px;
+    /* box-shadow: 0px 5px 10px rgb(216, 214, 214); */
+}
+/* .gifts img:hover + p{
+    display: block;
+
+} */
+
+/* subscribe section styles */
+.subscribe{
+    background-color: rgb(255, 238, 241);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.subscribe img{
+    width: 150px;
+    height: 150px;
+}
+input[type="email"]:focus{
+    /* box-shadow: 0px 1px 10px black; */
+    outline: none;
+}
+input[type="email"]:focus::placeholder{
+    opacity: 0;
 }
 
 /* footer section styles */
